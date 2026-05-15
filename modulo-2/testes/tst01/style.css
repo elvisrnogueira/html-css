@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  font-family: "Lobster", sans-serif;
+  background-color: rgba(232, 83, 83, 0.626);
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  height: 30px;
+}
+
+div {
+  display: inline-block;
+  font-size: 30px;
+  width: 550px;
+  height: 40px;
+}
+
+div:hover {
+  color: white;
+}
+
+div > p {
+  display: none;
+}
+
+div:hover > p {
+  display: block;
+}
+
+h2:hover {
+  color: white;
+}

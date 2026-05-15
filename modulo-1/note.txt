@@ -1,0 +1,205 @@
+Repositório Público: 
+
+1- github.com/gustavoguanabara
+2- gustavoguanabara.github.io
+
+<------------------------------------------------------------------------------------>
+
+Bibliografia Recomendada:
+
+1- Referências On-line:
+
+    1.1- MDN: Mozilla Developer Network
+    1.2- W3C Standards: World Wide Web Consortium
+    1.3- WHATWG Living Standard: Web Hypertext Application Technology Working Group
+    1.4- W3Schools: Refsnes Data
+
+2- Referências Físicas:
+
+    2.1- O'REILLY HTML5: Mark Pilgrim
+    2.2- O'REILLY CSS: Eric Meyer
+    2.3- O'REILLY Flexbox in CSS: Estelle Weyl
+    2.4- O'REILLY Grid Layout in CSS: Eric Meyer
+    2.5- Elizabeth Castro e Bruce Hyslop HTML5 e CSS3: Alta Books
+    2.6- Jon Duckett HTML&CSS: Alta Books
+    2.7- Elisabeth Robson e Eric Freeman: Use a Cabeça! HTML e CSS: Alta Books
+    2.8- Nate Cooper e Kim Gee Crie seu próprio site: Novatec
+
+<------------------------------------------------------------------------------------->
+
+História da Internet:
+
+1- A Internet surgiu da ARPANET que surgiu durante a guerra EUA x URSS para proteger centros militares.
+2- Comunicação mundial Internet: www.submarinecablemap.com
+3- Documentario como funciona a Internet: https://youtu.be/TNQsmPf24go
+4- Tim Berners-Lee: Criador do HTTP, HTML e WWW
+5- World Wide Web: sub-rede da Internet expecializada em HTTP
+6- HTTP = Protocólo
+
+<------------------------------------------------------------------------------------->
+
+Como funciona a Internet:
+
+1- Representação e Dados: 0-1 digitos binários
+2- Conjunto de 8 bits - representação mínima de um dado 
+3- 1 byte = 8 bits Ex: 01000001 = A - código multibyte: UTF-8
+4- 1024 bytes = 1KB / 1024 KB = 1 MB / 1024 MB = 1 GB / 1024 GB = 1 TB / 1024 TB = 1 PB / 1024 PB = 1 EB / 
+1024 EB = 1 ZB / 1024 ZB = 1 YB
+5- Computador só entende ondas binarias/ ondas quadradas 
+6- MB = Megabytes / Mb = Megabits
+7- Megabytes é usado para armazenamento
+8- Megabits é usado para transmissão
+9- Transformar ondas quadradas em ondas senoidal = modulação
+10- Transformar ondas senoidal em ondas quadradas = demodulação
+11- Aparelho que faz modulação e demodulação = MODEM
+12- Cliente: instagram.com - Modem: 186.249.138.220 - DNS Domain Name System  - Servidor IP: 157.240.22.174
+13- Ondas quadradas = sinal digital
+14- Ondas senoidal = sinal analógico
+15- UTF-8: padrão de codificação de caracteres que suporta acentuação
+
+<------------------------------------------------------------------------------------->
+
+O que é domínio e hospedagem:
+
+1- github.io = domínio = nome que identifica seu site
+2- servidor = hospedagem = local onde seu site estará armazenado
+3- DOMINIO:
+    3.1- Nome único
+    3.2- Pago anualmente
+    3.3- Vários TLDs = Top Level Domain
+4- HOSPEDAGEM:
+    4.1- Espaço para armazenar arquivos
+    4.2- Pago mensalmente
+    4.3- Espaço, memória, recursos
+5- URL: Uniform Resource Locator = www.github.com/gustavoguanabara
+    5.1- Dominio = github
+    5.2- GTLD = Generic Top Level Domain: .com
+    5.3- CCTLD = Country Code Top Level Domain: .br
+    5.4- Sub-dominio: www
+    5.5- Caminho: /gustavoguanabara
+6- Exercicio URL: gustavoguanabara.github.io 
+    5.1- URL: gustavoguanabara.github.io
+    5.2- Sub-dominio: gustavoguanabara
+    5.3- Domínio: github
+    5.4- GTLD: .io
+
+<------------------------------------------------------------------------------------->
+
+A diferença entre HTML, CSS e JavaScript:
+
+1- HTML = Hypertext Markup Language: focada em conteúdo: textos, imagens, videos, tabelas
+2- CSS = Cascading Style Sheets: focada em design: cores, sombras, tamanhos, posicionamento
+3- JS = JavaScript: focada em interações: menus, animações, popups, validações
+4- Conteúdo HTML:
+    4.1- Título: <h1> Exemplo de título </h1>
+    4.2- Parágrafo: <p> Exemplo de Parágrafo </p>
+    4.3- Imagem: <img src="foto.png" alt="Exemplo de foto">
+        4.3.1- <img = abertura de tag
+        4.3.2- src="" / alt="" = parâmetro
+        4.3.3- foto.png / exeplo de foto = valor
+5- Estilo CSS:
+    5.1- h1{
+            font-family: Arial;
+            font-size: 20pt;
+            color: blue;
+        }
+        5.1.1- h1{} = seletor
+        5.1.2- font-family: Arial; / font-size: 20pt; / color: blue; = declaração
+        5.1.3- font-family: / font-size: / color: = propriedade
+        5.1.4- Arial / 20pt / blue = valor
+6- Estrutura básica de documento HTML:
+    6.1- <!DOCTYPE html>
+         <html lang="pt-br">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+            </head>
+            <body>
+                <h1>Olá, Mundo!</h1>
+            </body>
+         </html>
+7- Servidor envia o HTML e CSS para sua máquina que então é disponibilizado para seu navegador,
+o navegador devolve uma análise em formato visual para seu computador, e seu site será mostrado na tela
+8- <meta name="viewport" content="width=device-width, initial-scale=1.0"> serve para tornar sites responsivos, ajustando a largura da página automaticamente à largura da tela do dispositivo (celular, tablet) e definindo o zoom inicial em 100%
+
+<------------------------------------------------------------------------------------->
+
+Front-end, Back-end e Full stack:
+
+1- Front-end: Client-side: experiência do usuário: HTML, CSS, JS
+2- Back-end: Server-side: interação do código com o servidor: PHP, NODE.JS, C#, Python, Ruby, Java
+3- Full stack: Dominio de ambas partes - Front-end e Back-end
+
+<------------------------------------------------------------------------------------->
+
+Anotações: 
+
+1- usamos &lt para < em html - Less than
+2- usamos %gt para > em html - Greater than
+3- para adicionarmos um emoji iniamos com &#x e depois colocamos o código do emoji
+4- tomar cuidado com direitos autorais
+5- quando usar .jpeg - quando precisar de uma foto de fundo grande - por ter uma alta compactação
+6- quando usar .png - quando precisar de uma foto transparente e/ou sem fundo - por permitir essa tecnologia
+7- recomendado nomear o favicon como favicon.ico
+8- para usar um favicon usamos link:favicon e apertamos ENTER, depois selecionamos o icone
+9- lembrar que h1 - h6 são hierarquia de títulos e não tamanhos de textos
+10- HTML5 não se foca mais em forma, e sim, semântica - significado
+11- CSS estilo - forma
+12- <strong> Negrito, <em> Itálico
+13- CTRL + SHIFT + P + Wrap with Abbreviation + (tag que querer usar) + ENTER
+14- <mark> Marca texto
+15- <big> está obsoleto por não dar sentido e ser uma forma
+16- <small> textos pequenos
+17- <del> Texto deletado, <ins> Texto inserido
+18- <u> Sublinhado (não semântica)
+19- <sup> Texto sobrescrito, <sub> Texto subscrito
+20- <code> Texto mono-espaçado - ótimo para mostrar códigos
+21- <pre> usado para "pré-formatar" o código
+22- SHIFT + TAB - remove uma tabulação
+23- TAB - adiciona uma tabulação
+24- <q> usamos para uma citação simples
+25- <blockquote> usamos para uma citação completa
+26- <blockquote cite="#"> usamos para referenciar aquela citação colocando o link no lugar do #
+27- <abbr title="#"> usamos para descrever uma abreviação colocando o significado no lugar do #
+28- <bdo dir="#"> usamos para inverter o texto podendo ser ltr ou rtl
+29- ltr = Left to Right, rtl = Right to Left
+30- na tag <ol> podemos usar type para selecionar o tipo de lista Ordenada que queremos, e podemos usar start para decidir onde a lista irá começar
+31- temos os types a, A, i, I, 1
+32- na tag <ul> podemos usar type para selecionar o tipo de lista não ordenada que queremos
+33- temos os type disc, circle, square
+34- pressionando ALT + clique M1 - você pode editar mais de um elemento de uma vez só
+35- <dl> usamos para abrir a lista de definição
+36- <dt> usamos para colocar o termo
+38- <dd> usamos para colocar a descrição
+39- target="_blank" e rel="external" usamos para abrir um link externo
+40- rel="next" - próxima pagina interna, rel="prev" - página interna anterior
+41- rel="nofollow" - usar para links que você acredita não ser oficial
+42- ../ faz com que você consiga selecionar um arquivo de uma pasta anterior
+43- iana.org/assignments/media-type - site para encontrar todos os media-types
+44- usamos download="exemplo.pdf" type="application/pdf" para um link com download em PDF
+45- usamos download="exemplo.zip" type="application/zip" para um link com download em ZIP
+46- para imagens dinâmicas cobrimos a tag <img> com a tag <picture>
+47- usamos a tag <source:media:type> para limitar o tamanho da imagem dentro do navegador, caso a imagem passe o limite, o site ira utilizar a outra imagem automaticamente.
+48- lembre-se de alterar para max-width: (tamanho), no srcset: colocar o caminho da outra imagem, e type:"image/png ou jpeg
+49- para adicionar um audio utilizamos a tag <audio preload: (opçôes) controls> - podemos adicionar loop para o audio sempre repetir e autoplay para tocar sempre que entrar.
+50- dentro da tag <audio> utilizamos a tag source:src para adicionar o caminho do audio e o type dele
+51- caso o navegador não suporte, podemos adicionar um <p> com <a href> dentro da tag <audio> para o usuario poder fazer o download do audio
+52- aplicativo handbrake para converter seu video
+53- aplicativo GIMP para editar suas imagens
+54- a ordem do source tem total influência
+55- para video, basta fazer o mesmo que o de audio, porém deve ser coberta com a tag <video>, podemos alterar o tamanho com width também
+56- usamos poster="#" para adicionar uma thumb ao seu video
+57- CSS inline - usamos em qualquer tag o parametro style="" para dar estilo
+58- color:"#"; usado para trocar a cor da fonte, background-color:"#"; usado para trocar a cor de fundo
+59- font-family:"#"; usado para trocar o tipo de fonte, font-size:"#" usado para alterar o tamanho da fonte
+60- CSS interno - usamos a tag <style> dentro do head para aplicar o CSS de forma interna do seu código
+61- CSS externo - usamos link:css dentro do head para vincular um arquivo CSS a um arquivo HTML
+62- podemos usar mais de 1 link:css no head ou usar uma tag <style> CSS interno ou até mesmo um CSS inline
+63- boas práticas - usar <p> quando for fazer um link <a>, quando usar <a> usar os parâmetros target e rel
+64- dentro do arquivo CSS o que tiver @ é (REGRA) deve estar antes do código CSS 
+65- Seletor: Especifica o elemento HTML que você deseja estilizar (ex: p, div, img).
+66- Bloco de Declaração: Contém uma ou mais declarações entre chaves {}.
+67- Declaração: Consiste em uma propriedade e um valor, separados por dois pontos : (ex: color:green;). Cada declaração deve ser terminada com um ponto e vírgula (;).
+68- Propriedade: O atributo de estilo que você deseja alterar (ex: color, font-size).
+69- Valor: O valor que você deseja definir para a propriedade (ex: blue, 16px).

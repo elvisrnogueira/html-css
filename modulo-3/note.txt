@@ -1,0 +1,16 @@
+<-- O que é Git e GitHub -->
+
+1- Repositório Local:
+    1.1- Git - Gerenciador de versionamento locais
+    1.2- Mantem versões do software dentro do seu computador
+    1.3- Se perder o computador, você perde os arquivos
+2- Repositório Remoto:
+    2.1- GitHub - Gerenciador de versionamento remoto
+    2.2- Faz um backup das versões do seu software na nuvem
+    2.3- Pode ser usado para trabalhar em equipes
+3- Quando tiver experiência, assistir o curso de Git e GitHub para se aprofundar
+
+<-- Instalando Git e GitHub no PC -->
+
+1- site para download do Git: https://git-scm.com/
+2- site para download do GitHub: https://desktop.github.com/download/
