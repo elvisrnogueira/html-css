@@ -15,6 +15,19 @@
 1- site para download do Git: https://git-scm.com/
 2- site para download do GitHub: https://desktop.github.com/download/
 
+<-- Primeiro repositório git e GitHub -->
+
+1- Como criar o seu repositório:
+    1.1- Abra o GitHub desktop
+    1.2- Clique em file e New repository (CTRL + N)
+    1.3- Crie um nome para o repositório
+    1.4- De uma descrição do repositório
+    1.5- Coloque o caminho de onde estão seus arquivos
+    1.6- Marque para inicializar com um README
+    1.7- Deixe o Git Ignore como none
+    1.8- Recomendado usar a licença: MIT License
+    1.9- Depois clique em Create Repository
+
 <-- Gerenciando Repositório GitHub -->
 
 1- Como atualizar o seu repositório:
