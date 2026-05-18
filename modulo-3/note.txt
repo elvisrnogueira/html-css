@@ -14,3 +14,12 @@
 
 1- site para download do Git: https://git-scm.com/
 2- site para download do GitHub: https://desktop.github.com/download/
+
+<-- Gerenciando Repositório GitHub -->
+
+1- Como atualizar o seu repositório:
+    1.1- Faça a alteração no arquivo de preferência
+    1.2- Abra o GitHub desktop
+    1.3- Adicione um Título a sua alteração (descrevendo o que foi feito)
+    1.4- Realize o Commit
+    1.5- Realize o Push
