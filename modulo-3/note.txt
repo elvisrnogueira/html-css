@@ -17,7 +17,7 @@
 
 <-- Primeiro repositório git e GitHub -->
 
-1- Como criar o seu repositório:
+1- Como criar o seu repositório Git:
     1.1- Abra o GitHub desktop
     1.2- Clique em file e New repository (CTRL + N)
     1.3- Crie um nome para o repositório
@@ -27,6 +27,10 @@
     1.7- Deixe o Git Ignore como none
     1.8- Recomendado usar a licença: MIT License
     1.9- Depois clique em Create Repository
+2- Como publicar seu repositório no GitHub:
+    2.1- Abra o GitHub desktop
+    2.2- Clique em Publish repository
+    2.3- Desmarque a opção de deixar o repositório privado - caso contrário ele estará privado de outros usuários
 
 <-- Gerenciando Repositório GitHub -->
 
