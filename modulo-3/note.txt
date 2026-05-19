@@ -49,3 +49,12 @@
     3.2- Selecione o repositório que deseja apagar
     3.3- Clique na opção Settings
     3.4- Clique em Delete this repository
+
+<-- Hospedando site gratuitamente com GitHub Pages -->
+
+1- Para hospedar gratuitamente no GitHub você deve:
+    1.1- Abrir o GitHub no navegador
+    1.2- Selecionar o repositório de preferência
+    1.3- Abrir o Settings
+    1.4- Abrir Pages
+    1.5- Em branch você escolhe a opção main depois /(root) e depois salva
