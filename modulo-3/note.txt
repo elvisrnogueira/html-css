@@ -66,3 +66,10 @@
 2- Selecione o repositório de preferência
 3- Clique em <> Code 
 4- Depois clique em Open with GitHub Desktop para abrir diretamente no GitHub Desktop ou Download ZIP para baixar o ZIP do repositório
+
+<-- GitHub em vários PCs -->
+
+1- Depois que tiver logado no outro PC, ter editado o repositório do jeito que quiser, e ter feito um push no GitHub,
+   lembre-se de fazer log out e remover o repositório do PC
+2- Recomendação: assistir o vídeo do Curso em Vídeo: Seu GitHub mais seguro - para ajudar na segurança do seu Git e GitHub
+3- Ativar a verificação de dois fatores
