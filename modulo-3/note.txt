@@ -59,3 +59,10 @@
     1.4- Abrir Pages
     1.5- Em branch você escolhe a opção main depois /(root) e depois salvar para criar sua URL
 2- Dica: acesse o site qr-code-generator.com para gerar um QR Code para seu site
+
+<-- Clonando Repositório GitHub -->
+
+1- Abra o GitHub no navegador
+2- Selecione o repositório de preferência
+3- Clique em <> Code 
+4- Depois clique em Open with GitHub Desktop para abrir diretamente no GitHub Desktop ou Download ZIP para baixar o ZIP do repositório
