@@ -73,3 +73,8 @@
    lembre-se de fazer log out e remover o repositório do PC
 2- Recomendação: assistir o vídeo do Curso em Vídeo: Seu GitHub mais seguro - para ajudar na segurança do seu Git e GitHub
 3- Ativar a verificação de dois fatores
+
+<-- Colocando uma imagem de fundo no seu site -->
+
+1- Para colocar uma imagem de fundo, você deve usar a declaração:
+    1.1- background-image: url('caminho do arquivo de imagem');
