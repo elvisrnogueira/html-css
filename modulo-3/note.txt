@@ -87,7 +87,12 @@
         2.2.3- repeat-y : para repetir apenas para o eixo y
     2.3- A imagem de fundo sempre partirá do canto superior esquerdo
 3- A imagem de fundo sempre repetirá no tamanho padrão, a não ser que usemos a declaração:
-    3.1- background-size: (valor px) (valor px);
+    3.1- background-size: (valor);
+    3.2- Os valores podem ser:
+        3.2.1- contain : faz com que a imagem seja 100% exibida (pode criar barras pretas ao redor da imagem)
+        3.2.2- cover : faz com que a imagem cubra a tela inteira (pode cortar as laterais da imagem para preencher a tela)
+        3.2.3- auto : faz com que o navegador arrume o tamanho de maneira automatica (valor padrão)
+        3.2.4- px/ % : altera o tamanho da imagem em pixel ou porcentagem da tela
 4- Para configurar a posição da imagem de fundo, você deve usar a declaração:
     4.1- background-position: (valor);
     4.2- Os valores podem ser:
