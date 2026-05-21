@@ -85,6 +85,26 @@
         2.2.2- no-repeat : para termos apenas uma única imagem
         2.2.3- repeat-x : para repetir apenas para o eixo x
         2.2.3- repeat-y : para repetir apenas para o eixo y
-    2.3- A imagem sempre partirá do canto superior esquerdo
-3- A imagem sempre repetirá no tamanho padrão, a não ser que usemos a declaração:
-    3.1- background-size: (valor) (valor);
+    2.3- A imagem de fundo sempre partirá do canto superior esquerdo
+3- A imagem de fundo sempre repetirá no tamanho padrão, a não ser que usemos a declaração:
+    3.1- background-size: (valor px) (valor px);
+4- Para configurar a posição da imagem de fundo, você deve usar a declaração:
+    4.1- background-position: (valor);
+    4.2- Os valores podem ser:
+        4.2.1- top
+        4.2.2- left
+        4.2.3- center
+        4.2.4- bottom
+        4.2.5- right
+    4.3- Podemos tambem combinar esses valores:
+        4.3.1- left top
+        4.3.2- center top
+        4.3.3- right top
+        4.3.4- left center
+        4.3.5- center center
+        4.3.6- right center
+        4.3.7- left bottom
+        4.3.8- center bottom
+        4.3.9- right bottom
+5- O vh significa Viewport Height (Altura do Viewport) é uma unidade de medida relativa que representa 1% da altura da janela visível do navegador
+6- Para facilitar no entendimento do background-position, alteramos a medida do height com vh
