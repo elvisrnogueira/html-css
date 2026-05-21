@@ -78,3 +78,13 @@
 
 1- Para colocar uma imagem de fundo, você deve usar a declaração:
     1.1- background-image: url('caminho do arquivo de imagem');
+2- Para fazer com que a imagem de fundo repita várias vezes, você deve usar a declaração:
+    2.1- background-repeat: (valor);
+    2.2- Os valores podem ser:
+        2.2.1- repeat : para repetir a imagem por todo o site
+        2.2.2- no-repeat : para termos apenas uma única imagem
+        2.2.3- repeat-x : para repetir apenas para o eixo x
+        2.2.3- repeat-y : para repetir apenas para o eixo y
+    2.3- A imagem sempre partirá do canto superior esquerdo
+3- A imagem sempre repetirá no tamanho padrão, a não ser que usemos a declaração:
+    3.1- background-size: (valor) (valor);
