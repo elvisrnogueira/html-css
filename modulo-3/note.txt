@@ -113,3 +113,18 @@
         4.3.9- right bottom
 5- O vh significa Viewport Height (Altura do Viewport) é uma unidade de medida relativa que representa 1% da altura da janela visível do navegador
 6- Para facilitar no entendimento do background-position, alteramos a medida do height com vh
+
+<-- background-attachment e shorthand -->
+
+1- A propriedade background-attachment no CSS define se a imagem de fundo de um elemento rola junto com o conteúdo da página ou se permanece fixa na tela enquanto você navega
+2- Como declarar:
+    2.1- background-attachment: (valor);
+3- Os valores podem ser:
+    3.1- Scroll : Para o fundo descer ou subir junto com o conteúdo
+    3.2- Fixed : Para o fundo ficar fixo em um unico lugar e não mexer com o conteúdo
+4- Podemos usar uma shorthand para declarar tudo que envolva o background
+5- Como declarar:
+    5.1- background: (color) (image) (position) (repeat) [size] (attachment);
+    5.2- Embora na documentação esteja dizendo que podemos usar o size no shorthand, ele não está funcionando, temos que declara-lo separadamente
+    5.3- Ex: background: black url("images/wallpaper002.jpg") center center no-repeat fixed;
+             background-size: cover;
