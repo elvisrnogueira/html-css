@@ -128,3 +128,18 @@
     5.2- Embora na documentação esteja dizendo que podemos usar o size no shorthand, ele não está funcionando, temos que declara-lo separadamente
     5.3- Ex: background: black url("images/wallpaper002.jpg") center center no-repeat fixed;
              background-size: cover;
+
+<-- Centralização vertical das caixas -->
+
+1- Defina o container como relativo - position: relative;
+2- Defina o conteudo como absoluto - position: absolute;
+3- Ao definir uma position como absotule, podemos alterar duas propriedades dele, o top e o left
+4- O left define o tamanho entre a borda e a ponta esquerda do conteudo
+5- O top define o tamanho entre a borda e a ponta esquerda de cima do conteudo
+6- Definimos o valor de left e top como 50% para a ponta superior esquerda ficar exatamente no meio do container
+7- Declare a proprieade transform no conteudo
+8- transform permite alterar a forma, o tamanho, a posição ou a orientação de um elemento HTML diretamente na tela
+9- No transform usamos o valor translate que é usado para reposicionar elementos na tela, movendo-os ao longo dos eixos horizontal e vertical
+10- Valores positivos como translate(10px, 10px); movem 10px para direita e 10px para baixo
+11- Valores negativos como translate(-10px, -10px); movem 10px para esquerda e 10px para cima
+12- Definimos o valor translate(-50%, -50%); para que centralizamos nosso conteudo verticalmente e horizontalmente no nosso container
