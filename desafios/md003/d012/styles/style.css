@@ -40,3 +40,29 @@ header a:hover {
     text-decoration: underline;
 }
 
+main > section.poem {
+    padding: 100px 30px;
+}
+
+section.poem p {
+    font-size: 4em;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+main > section.poem-image {
+    padding: 100px 30px;
+}
+
+section.poem-image p {
+    font-size: 4em;
+    font-family: cursive;
+    font-weight: normal;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+main > #img01 {
+    background-image: url("/desafios/md003/d012/imagens/background001.jpg");
+}
