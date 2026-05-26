@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 100px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte01);
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte01);
+    padding-top: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte01);
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
