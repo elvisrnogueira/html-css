@@ -9,58 +9,66 @@
     padding: 0px;
 }
 
-header {
-    background-color: black;
-    padding: 100px;
+body {
+    min-height: 100vh;
 }
 
-header h1 {
-    text-align: center;
+header {
+    background-color: black;
     color: white;
-    font-family: var(--fonte01);
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
     font-size: 5em;
     font-weight: bolder;
 }
 
-header p {
-    text-align: center;
-    color: white;
+header > p {
     font-family: var(--fonte01);
-    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
-header a {
+header a, footer a {
     color: white;
     text-decoration: none;
     font-family: var(--fonte01);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+main > section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
 main > section.poem {
-    padding: 100px 30px;
+    background-color: white;
+    color: black;
 }
 
 section.poem p {
-    font-size: 4em;
     font-family: cursive;
     font-weight: normal;
+    line-height: 2em;
 }
 
 main > section.poem-image {
-    padding: 100px 30px;
+    color: black;
 }
 
 section.poem-image p {
-    font-size: 4em;
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 400px;
     font-family: cursive;
     font-weight: normal;
     color: white;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.712);
 }
 
 main > #img01 {
@@ -74,4 +82,11 @@ main > #img01 {
 main > #img02 {
     background-image: url("/desafios/md003/d012/imagens/background002.jpg");
     background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }

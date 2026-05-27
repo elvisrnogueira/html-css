@@ -143,3 +143,8 @@
 10- Valores positivos como translate(10px, 10px); movem 10px para direita e 10px para baixo
 11- Valores negativos como translate(-10px, -10px); movem 10px para esquerda e 10px para cima
 12- Definimos o valor translate(-50%, -50%); para que centralizamos nosso conteudo verticalmente e horizontalmente no nosso container
+
+<-- Ajustes no CSS do projeto -->
+
+1- text-transfomr: uppercase; - usamos para deixar todas as letras em maiúsculo
+2- font-variant: small-caps; - usamos para dexar todas as letras em maiúsculo porém com as primeiras letras são maiores
