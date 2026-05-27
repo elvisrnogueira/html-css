@@ -65,28 +65,27 @@ section.poem p {
 }
 
 main > section.poem-image {
-    color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.400);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
 }
 
 section.poem-image p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.500);
+    text-shadow: 1px 1px 0px black;
     font-weight: normal;
-    color: white;
 }
 
 main > #img01 {
-    background-image: url("/desafios/md003/d012/imagens/background001.jpg");
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("../imagens/background001.jpg");
 }
 
 main > #img02 {
-    background-image: url("/desafios/md003/d012/imagens/background002.jpg");
-    background-attachment: fixed;
+    background-image: url("../imagens/background002.jpg");
 }
 
 footer {
