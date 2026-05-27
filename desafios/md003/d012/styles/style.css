@@ -65,4 +65,13 @@ section.poem-image p {
 
 main > #img01 {
     background-image: url("/desafios/md003/d012/imagens/background001.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main > #img02 {
+    background-image: url("/desafios/md003/d012/imagens/background002.jpg");
+    background-attachment: fixed;
 }
