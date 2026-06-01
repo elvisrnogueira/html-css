@@ -148,3 +148,7 @@
 
 1- text-transfomr: uppercase; - usamos para deixar todas as letras em maiúsculo
 2- font-variant: small-caps; - usamos para dexar todas as letras em maiúsculo porém com as primeiras letras são maiores
+
+<-- Ainda podemos usar tabelas em HTML? -->
+
+1- Não se deve usar tabela para criar a estrutura do seu site
