@@ -152,3 +152,4 @@
 <-- Ainda podemos usar tabelas em HTML? -->
 
 1- Não se deve usar tabela para criar a estrutura do seu site
+2- Utilizar quando necessário, ex: tabéla de apresentação de dados
