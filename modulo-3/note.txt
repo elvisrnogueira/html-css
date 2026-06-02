@@ -153,3 +153,27 @@
 
 1- Não se deve usar tabela para criar a estrutura do seu site
 2- Utilizar quando necessário, ex: tabéla de apresentação de dados
+
+<-- Sua primeira tabela em HTML --> 
+
+1- HIERARQUIA DE TABELAS (simples)
+    1.1- TABLE = tabela
+    1.2- TABLE ROW = linha de tabela
+    1.3- TABLE HEADER = cabeçalho de tabela
+    1.4- TABLE DATA = dado de tabela
+2- Se a hierarquia não for respeitada, os dados irão aparecer ou antes ou depois da tabela
+3- Usamos border-collapse: collapse; para colapsar (juntar) a minha tabela
+4- Usamos border-collapse: separate: para separar a minha tabela
+
+<-- Alinhando o conteúdo em tabelas -->
+
+1- text-align é usado para configurar o alinhamento horizontal de uma célula
+    1.1- Seus valores podem ser:
+        1.1.1- left (esquerda)
+        1.1.2- center (centro)
+        1.1.3- right (direita)
+2- vertical-align é usado para configurar o alinhamento vertical de uma célula
+    2.1- Seus valores podem ser:
+        2.1.1- top (em cima)
+        2.1.2- middle (meio)
+        2.1.3- bottom (em baixo)
