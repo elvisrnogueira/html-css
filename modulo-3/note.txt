@@ -180,9 +180,25 @@
 
 <-- Semântica de tabelas grandes -->
 
-1- thead
-    1.1- tr, th, td
-2- tbody
+1- caption -> legenda da tabela
+2- thead -> cabeçalho
     2.1- tr, th, td
-3- tfoot
+3- tbody -> corpo
     3.1- tr, th, td
+4- tfoot -> rodapé
+    4.1- tr, th, td
+
+<- Escopo de título em tabelas ->
+
+1- Nas tabelas usamos um atributo para identificar se o título escolhido comanda a linha ou a coluna
+2- scope= "col"; - Titulo da coluna
+3- scope= "row"; - Titulo da linha
+
+<-- Efeito Zebrado na tabela com HTML e CSS -->
+
+1- Para fazer efeito zebrado nas nossas tabelas utilizamos a pseudo-classe :nth-child()
+2- Ex: tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+       }
+3- Nesse exemplo a cada 1 linha a outra ficara com o fundo de cor lightgray, podemos alterar o valor mudando o numero para (3n), (4n), (5n), etc.
+4- Podemos tambem colocar os valores (odd) - para impares e (even) - para par
