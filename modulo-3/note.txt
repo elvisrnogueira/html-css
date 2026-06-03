@@ -202,3 +202,18 @@
        }
 3- Nesse exemplo a cada 1 linha a outra ficara com o fundo de cor lightgray, podemos alterar o valor mudando o numero para (3n), (4n), (5n), etc.
 4- Podemos tambem colocar os valores (odd) - para impares e (even) - para par
+
+<-- Cabeçalho fixo em tabelas grandes -->
+
+1- Para fazer com que nosso cabeçalho fique fixo durante toda a tabela nos utilizamos as seguintes declarações:
+2- Declaramos o table com position: relative;
+3- Declaramos o thead th com position: sticky; depois top: -1; e por último declaramos a mesma background-color que ja é do cabeçalho
+4- Ex: table {
+          position: relative;           
+       }
+       thead th {
+          position: sticky;
+          top: -1;
+          background-color: gray;
+       }
+5- Lembrete: Não funciona em todos os navegadores
