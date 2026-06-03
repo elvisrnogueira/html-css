@@ -217,3 +217,11 @@
           background-color: gray;
        }
 5- Lembrete: Não funciona em todos os navegadores
+
+<-- Mesclagem de células -->
+
+1- Podemos expandir nosass células de uma tabela por mais de uma linha ou mais de uma coluna
+2- Para expandir por mais de uma coluna usamos a declaração - colspan: "valor"
+    2.1- O valor é a quantidade de colunas que você quer que se expanda
+3- Para expandir por mais de uma linha usamos a declaração - rowspan: "valor"
+    2.1- O valor é a quantidade de linhas que você quer que se expanda
