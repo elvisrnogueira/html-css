@@ -191,8 +191,10 @@
 <- Escopo de título em tabelas ->
 
 1- Nas tabelas usamos um atributo para identificar se o título escolhido comanda a linha ou a coluna
-2- scope= "col"; - Titulo da coluna
-3- scope= "row"; - Titulo da linha
+2- scope= "col"; - Usamos quando o Titulo possui uma coluna em dados
+3- scope= "row"; - Usamos quando o Titulo possui uma linha em dados
+4- scope "colgroup" - Usamos quando o Titulo possui mais de uma coluna em dados
+5- scope "rowgroup" - Usamos quando o Titulo possui mais de uma linha em dados
 
 <-- Efeito Zebrado na tabela com HTML e CSS -->
 
@@ -207,7 +209,7 @@
 
 1- Para fazer com que nosso cabeçalho fique fixo durante toda a tabela nos utilizamos as seguintes declarações:
 2- Declaramos o table com position: relative;
-3- Declaramos o thead th com position: sticky; depois top: -1; e por último declaramos a mesma background-color que ja é do cabeçalho
+3- Declaramos o thead th com position: sticky; depois top: 0 ou -1; e por último declaramos a mesma background-color que ja é do cabeçalho
 4- Ex: table {
           position: relative;           
        }
