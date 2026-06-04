@@ -227,3 +227,18 @@
     2.1- O valor é a quantidade de colunas que você quer que se expanda
 3- Para expandir por mais de uma linha usamos a declaração - rowspan: "valor"
     2.1- O valor é a quantidade de linhas que você quer que se expanda
+
+<-- Agrupando Colunas com colgroup -->
+
+1- Para configurar uma coluna inteira de uma tabela podemos utilizar a tag <colgroup>
+2- Dentro da tag <colgroup> usamos outra tag para se referir as colunas - <col>
+3- Damos uma classe para cada <col> para podermos configurar como queremos cada coluna
+4- Ex: <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+       </colgroup>
+5- Com as classes nomeadas podemos configurar nossas colunas como quisermos com CSS
+6- Podemos tambem expandir a configuração para a proximas Colunas usando span="valor"
+7- Ex: <col class="cnome" span="2">
