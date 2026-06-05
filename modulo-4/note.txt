@@ -1,0 +1,8 @@
+<-- O iframe ainda pode ser usado? -->
+
+1- O que significa iframe: inline frame - quadro em linha
+2- Declaramos o iframe com a tag <iframe>
+3- Ex: <iframe src="https://cursoemvideo.com.br" frameborder="0"></iframe>
+4- Ele faz com que carregue o site inteiro que estiver no src dentro de um unico quadro
+5- O frameborder é usado para escolher a espessura da borda de quadro - valor padrão é 0
+6- Alguns sites tem uma proteção para que seus conteúdos não sejam exibidos com o uso de iframe
