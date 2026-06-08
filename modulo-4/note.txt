@@ -4,5 +4,17 @@
 2- Declaramos o iframe com a tag <iframe>
 3- Ex: <iframe src="https://cursoemvideo.com.br" frameborder="0"></iframe>
 4- Ele faz com que carregue o site inteiro que estiver no src dentro de um unico quadro
-5- O frameborder é usado para escolher a espessura da borda de quadro - valor padrão é 0
+5- O frameborder é usado para dizer se queremos borda ou não no iframe - valor padrão é 0 - 0 = não, 1 = sim
 6- Alguns sites tem uma proteção para que seus conteúdos não sejam exibidos com o uso de iframe
+
+<-- Configurando iframes -->
+
+1- Caso o iframe não seja compativel com seu navegador podemos deixar uma mensagem no lugar ou um link para que o usuario
+acesse o site
+2- Ex:
+    2.1- <iframe src="https://cursoemvideo.com.br" frameborder="0"> <a href="https://cursoemvideo.com.br">Curso em Video </a></iframe>
+    2.2- <iframe src="https://cursoemvideo.com.br" frameborder="0"> [Seu navegador não é compativel] </iframe>
+3- O iframe tem o tamanho padrão de 300x150 px
+4- Para modificar o tamanho dos iframes podemos declarar o height e width dentro do iframe, ou podemos usar as CSS (as CSS são soberanas)
+5- Dentro do iframe existe o parâmetro chamado "scolling" - nele podemos escolher se nosso iframe terá barra de rolagem ou não
+6- Seus valores podem ser: auto - para o navegador decidir, yes - para ter a barra de rolagem, no - para não ter a barra de rolagem
