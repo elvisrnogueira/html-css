@@ -18,3 +18,7 @@ acesse o site
 4- Para modificar o tamanho dos iframes podemos declarar o height e width dentro do iframe, ou podemos usar as CSS (as CSS são soberanas)
 5- Dentro do iframe existe o parâmetro chamado "scolling" - nele podemos escolher se nosso iframe terá barra de rolagem ou não
 6- Seus valores podem ser: auto - para o navegador decidir, yes - para ter a barra de rolagem, no - para não ter a barra de rolagem
+
+<-- Conteúdo local no iframe -->
+
+1- Podemos usar o iframe para importar uma pagina local para seu site, exemplo: colocar uma tabela responsiva de outro arquivo .html no seu site
