@@ -21,4 +21,5 @@ acesse o site
 
 <-- Conteúdo local no iframe -->
 
-1- Podemos usar o iframe para importar uma pagina local para seu site, exemplo: colocar uma tabela responsiva de outro arquivo .html no seu site
+1- Podemos usar o iframe para importar uma pagina local para seu site
+2- Ex: <iframe src="pag001.html" frameborder="0"></iframe>
