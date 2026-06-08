@@ -31,3 +31,17 @@ acesse o site
 3- Ex:
     3.1- <iframe id="tela" name="frame" src="">
     3.2- <a href="paginas-extras/pag001.html" target="frame">Primeira página</a>
+
+<-- Conteúdo no iframe por código -->
+
+1- Dentro do iframe podemos trocar o src por srcdoc que permite com que possamos usar elementos de HTML
+2- Ex:
+    2.1- <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma dass opções acima</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    Nihil voluptatem quam minima velit, in consectetur dolorum sunt aut facere 
+    veniam facilis non inventore expedita dolores! Porro qui modi dolores reprehenderit.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum deleniti nemo rerum 
+    totam veniam vel officia odit velit, adipisci repellat commodi vero molestiae
+    perspiciatis provident voluptas sint accusamus, unde eligendi.</p>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
