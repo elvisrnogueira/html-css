@@ -23,3 +23,11 @@ acesse o site
 
 1- Podemos usar o iframe para importar uma pagina local para seu site
 2- Ex: <iframe src="pag001.html" frameborder="0"></iframe>
+
+<-- Navegação no iframe --> 
+
+1- Podemos fazer com que ao clicar em um link abra a página dentro do iframe
+2- Para isso declaramos um name ao iframe e no link colocamos o valor do target com o name
+3- Ex:
+    3.1- <iframe id="tela" name="frame" src="">
+    3.2- <a href="paginas-extras/pag001.html" target="frame">Primeira página</a>
