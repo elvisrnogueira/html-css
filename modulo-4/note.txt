@@ -45,3 +45,10 @@ acesse o site
     perspiciatis provident voluptas sint accusamus, unde eligendi.</p>">
         <p>Infelizmente seu navegador não é compatível com isso.</p>
     </iframe>
+
+<-- Incovenientes do iframe -->
+
+1- Não confunda frame com iframe, são coisas diferentes
+2- O Google bot apresenta dificuldades para indexar conteúdos que estão em iframe
+3- Leitores de telas para pessoas com dificuldades visuais apresentam dificuldades para reconhecer conteúdos que estão em iframe
+4- Cuidado com a segurança pois você está abrindo a porta para outro site que você não tem controle - seu site fica exposto para ataques
