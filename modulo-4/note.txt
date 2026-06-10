@@ -52,3 +52,19 @@ acesse o site
 2- O Google bot apresenta dificuldades para indexar conteúdos que estão em iframe
 3- Leitores de telas para pessoas com dificuldades visuais apresentam dificuldades para reconhecer conteúdos que estão em iframe
 4- Cuidado com a segurança pois você está abrindo a porta para outro site que você não tem controle - seu site fica exposto para ataques
+
+<-- Tornando iframes mais seguros -->
+
+1- Para bloquar ações potencialmente maliciosas dos sites que você coloca no iframe você deve declarar o atributo sandbox="sandbox" dentro do seu iframe
+2- Ex: <iframe src="paginas-extras/pag004.html" sandbox="sandbox">
+        Seu navegador não é compativel com isso...
+        </iframe>
+3- Para impedir com que o conteúdo carregado dentro do iframe colete algum dado do seu site devemos declarar o atributo referrerpolicy="no-referrer" dentro do seu irame
+4- Ex: <iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer">
+        Seu navegador não é compativel com isso...
+        </iframe>
+5- Para poder permitir alguns acessos do iframe podemos colocar outros valores no sandbox
+    5.1- Ex: allow-same-origin = para permitir coisas da mesma origem (pasta/ arquivo)
+             allow-forms = para permitir formulários
+             allow-scripts = para permitir scripts
+    5.2- Ao usar algum desses valores os outros estaram protegidos
