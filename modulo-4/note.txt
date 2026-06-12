@@ -72,3 +72,5 @@ acesse o site
 <-- Dicas do projeto-social -->
 
 1- border-sizing: border-box; -> faz com que a borda faça parte da caixa do elemento que foi declarado
+2- Para ter uma animação mais suave, devemos declarar transition: (valor1 valor2) - valor1: atributo que quer a transição, valor2: tempo
+3- Ex: transition: transform .5s; -> o atributo transform vai demorar meio segundo para aparecer/ ser executado
