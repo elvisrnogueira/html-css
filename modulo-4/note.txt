@@ -68,3 +68,7 @@ acesse o site
              allow-forms = para permitir formulários
              allow-scripts = para permitir scripts
     5.2- Ao usar algum desses valores os outros estaram protegidos
+
+<-- Dicas do projeto-social -->
+
+1- border-sizing: border-box; -> faz com que a borda faça parte da caixa do elemento que foi declarado
