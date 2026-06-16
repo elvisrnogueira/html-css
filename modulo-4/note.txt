@@ -74,3 +74,11 @@ acesse o site
 1- border-sizing: border-box; -> faz com que a borda faça parte da caixa do elemento que foi declarado
 2- Para ter uma animação mais suave, devemos declarar transition: (valor1 valor2) - valor1: atributo que quer a transição, valor2: tempo
 3- Ex: transition: transform .5s; -> o atributo transform vai demorar meio segundo para aparecer/ ser executado
+
+<-- Como criar formulários com HTML5 -->
+
+1- Todo conteúdo do formulário deve estar coberto pela tag <form> </form>
+2- Para criar uma caixa de texto onde o usuario pode digitar usamos a tag <input> com o type="text"
+    2.1- O type="text" deve estar acompanhado de um name e um id
+3- Para criar um botão de enviar, usamos a tag <input> com o type="submit"
+    3.1- Para colocar um texto dentro do submit usamos a declaração value="(ESCRITA DO BOTÃO)"
