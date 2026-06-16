@@ -82,3 +82,10 @@ acesse o site
     2.1- O type="text" deve estar acompanhado de um name e um id
 3- Para criar um botão de enviar, usamos a tag <input> com o type="submit"
     3.1- Para colocar um texto dentro do submit usamos a declaração value="(ESCRITA DO BOTÃO)"
+
+<-- Usar Label vai melhorar seus formulários -->
+
+1- Para remover o a caixa de autocomplete, na tag form, declaramos o atributo autocomplete="value" - tendo o valor de off para desligar e on para ligar o autocomplete
+2- Para o botão de submit ter alguma ação nós declaramos na tag form o atributo action="value" - tendo o valor o arquivo da linguagem de programação escolhida
+3- Equanto o name é mais utilizado para PHP e HTML5, o id é mais utilizado JS e para uso do label
+4- O label serve como rótulo ou texto descritivo para um campo de entrada de dados, para referenciar um campo de entrada com label, declaramos label com o atributo for="value" - tendo o valor como o id passado no input
