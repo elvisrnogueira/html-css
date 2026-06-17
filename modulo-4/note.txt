@@ -89,3 +89,14 @@ acesse o site
 2- Para o botão de submit ter alguma ação nós declaramos na tag form o atributo action="value" - tendo o valor o arquivo da linguagem de programação escolhida
 3- Equanto o name é mais utilizado para PHP e HTML5, o id é mais utilizado JS e para uso do label
 4- O label serve como rótulo ou texto descritivo para um campo de entrada de dados, para referenciar um campo de entrada com label, declaramos label com o atributo for="value" - tendo o valor como o id passado no input
+
+<-- Métodos GET e POST para formulários -->
+
+1- Existem 2 métodos para envio simples de formulário
+2- O método padrão é o GET que é o método que mostra os dados na URL
+3- O outro método é o POST esse método não mostra os dado na URL, porém, ao inspecionar a página e ir em Network e Headers, os dados enviados estaram lá
+4- Quando você envia dados por GET você só pode enviar 3000bytes - aproximadamente 3000 letras
+5- Usamos GET quando o objetivo é buscar ou recuperar dados do servidor (como em uma barra de pesquisa ou filtro), pois ele salva os parâmetros na URL
+6- Usamos POST quando é para enviar ou processar dados que alteram o estado do servidor (como cadastros, logins ou arquivos), já que oculta as informações no corpo da requisição (mais usado para dados sensíveis)
+7- Se estivermos trabalhando com senhas ou dados muito sensíveis, o ideal é usar o método HTTPS para proteger seus dados
+8- Para alterar o método de envio do nosso form nós declaramos o atributo method="value" no form - sendo o valor GET ou POST
