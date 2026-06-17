@@ -100,3 +100,14 @@ acesse o site
 6- Usamos POST quando é para enviar ou processar dados que alteram o estado do servidor (como cadastros, logins ou arquivos), já que oculta as informações no corpo da requisição (mais usado para dados sensíveis)
 7- Se estivermos trabalhando com senhas ou dados muito sensíveis, o ideal é usar o método HTTPS para proteger seus dados
 8- Para alterar o método de envio do nosso form nós declaramos o atributo method="value" no form - sendo o valor GET ou POST
+
+<-- Criando caixas de texto e de senhas -->
+
+1- Para criar uma caixa de senha você deve criar um input com type="password"
+2- Para criar um botão de limpar/resetar você deve criar um input com type="reset"
+3- Para fazer com que o campo sejá obrigatório dentro do input você deve colocar o atributo required
+4- Para limitar a quantidade de caractéres de um campo podemos usar (minlenght) para quantidade minima e (maxlenght) para quantidade máxima
+5- Para que a caixa mostre na tela um número máximo de caractéres podemos usar o atributo size com o valor de caractéres de preferencia - Ex: size="10" - vai mostrar 10 caractéres
+6- Para deixar uma mensagem dentro da caixa usamos o atributo placeholder="value" - sendo o valor a mensagem de preferencia
+8- Para fazer seu navegador sugerir o autocomplete de acordo com o que está sendo pedido, podemos usar o atributo autocomplete="value" dentro do input - sendo valor dependendo de qual campo está sendo preechido
+    8.1- Lembre-se para usar o autocomplete no input, o autocomplete deve estár com o valor "on" no form
