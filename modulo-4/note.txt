@@ -111,3 +111,10 @@ acesse o site
 6- Para deixar uma mensagem dentro da caixa usamos o atributo placeholder="value" - sendo o valor a mensagem de preferencia
 8- Para fazer seu navegador sugerir o autocomplete de acordo com o que está sendo pedido, podemos usar o atributo autocomplete="value" dentro do input - sendo valor dependendo de qual campo está sendo preechido
     8.1- Lembre-se para usar o autocomplete no input, o autocomplete deve estár com o valor "on" no form
+
+<-- Elementos number, month, date e time em formulários HTML -->
+
+1- Para criar uma caixa de texto onde podemos apenas digitar números usamos o type="number" - podemos limitar os números que podemos usar, para valores minimos usamos min e para valores maximos usamos max
+2- Para criar uma caixa para selecionar o mês, usamos o type="month" - para deixar um valor já pré selecionado, podemos usar o atributo value=""
+3- Para criar uma caixa para selecionar a data, usamos o type="date"
+4- Para criar uma caixa para selecionar as horas, usamos o type="time"
