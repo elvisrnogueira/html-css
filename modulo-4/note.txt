@@ -119,10 +119,19 @@ acesse o site
 3- Para criar um formulário para selecionar a data, usamos o type="date"
 4- Para criar um formulário para selecionar as horas, usamos o type="time"
 
-<-- Formulários com telefone e e-mail -->
+<-- Formulários com telefone e e-mail --> 
 
 1- Para criar um formulário de email usamos o type="email" - nele se torna obrigatório ter um @ no campo de texto
 2- Para criar um formulário de telefone usamos o type="tel" - você consegue definir um padrão com expressões regulares usando pattern="value"
 3- O RegEx sempre irá se iniciar com "^" e terminar com "$" - Ex: pattern="^[0-9]{4}-[0-9]{4}$" - Nesse exemplo só irá aceitar dígitos de 0 a 9 e somente 4 dígitos "-" 4 dígitos
 4- Ex de cel: pattern="^\d{4,5}-\d{4}$" - Nesse exemplo - Nesse exemplo só irá aceitar de 4 a 5 dígitos "-" 4 dígitos
 5- Ex com DDD: pattern="^\(\d{2}\)\d{4,5}-\d{4}" - Nesse exemplo se abre e fecha parênteses assim = \(\)
+6- Podemos agrupar todos os campos semelhantes com a tag <fieldset> e colocar uma legenda com a tag <legend>
+
+<-- Checkbox e Radio button em HTML -->
+
+1- Para criar um formulário de dar check em varias opções usamos o type="checkbox" - Lembre-se de colocar um name e um id com label referenciando
+2- Para criar umm formulário de selecionar apenas uma unica opção usamos o type="radio" - Lembre-se de colocar um name e um id com label referenciando
+3- O name das opções do radio devem ser o mesmo para que possamos selecionar apenas uma opção
+4- Coloque um value para que o para podermos enviar um valor para o back-end
+5- O atributo checked faz com que a opçãao atribuida já esteja marcada ao iniciar o sistema
