@@ -135,3 +135,9 @@ acesse o site
 3- O name das opções do radio devem ser o mesmo para que possamos selecionar apenas uma opção
 4- Coloque um value para que o para podermos enviar um valor para o back-end
 5- O atributo checked faz com que a opçãao atribuida já esteja marcada ao iniciar o sistema
+
+<-- Elementos color, range e file em HTML -->
+
+1- Para criar um formulário para escolher uma cor usamos o type="color"
+2- Para criar um formulário para escolher uma "parâmetro" (como escolher o volume) usamos o type="range"
+3- Para criar um formulário para enviar um arquivo usamos o type="file"
