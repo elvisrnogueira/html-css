@@ -141,3 +141,24 @@ acesse o site
 1- Para criar um formulário para escolher uma cor usamos o type="color"
 2- Para criar um formulário para escolher uma "parâmetro" (como escolher o volume) usamos o type="range"
 3- Para criar um formulário para enviar um arquivo usamos o type="file"
+
+<-- Select, datalist e textarea em HTML -->
+
+1- Para criar uma lista suspensa (menu de opções) usamos a tag <select> - Lembre-se de colocar um name para enviar o valor ao back-end
+2- As opções da lista são criadas com a tag <option> dentro do <select>
+3- O atributo value da <option> é o valor que será enviado para o back-end, enquanto o texto entre as tags é o que o usuário visualiza
+4- Podemos usar o atributo selected na <option> para deixá-la selecionada por padrão ao carregar a página
+5- É recomendado colocar uma primeira opção como "Selecione uma opção" com value="(vazio)" para obrigar o usuário a escolher uma opção válida
+6- Podemos agrupar opções utilizando a tag <optgroup>, facilitando a organização de listas maiores
+7- Para criar um campo de texto com sugestões de preenchimento usamos a tag <datalist> junto com um <input>
+8- O atributo list do <input> deve receber o mesmo id da <datalist> para que as sugestões apareçam
+9- As sugestões são criadas utilizando a tag <option> dentro da <datalist>
+10- O atributo value da <option> representa o texto que será inserido no campo quando a opção for escolhida
+11- Diferente do <select>, o usuário pode digitar qualquer valor, não sendo obrigado a escolher uma das sugestões da <datalist>
+12- A <datalist> é indicada para campos de pesquisa ou preenchimento com sugestões, enquanto o <select> é usado quando o usuário deve escolher uma opção da lista
+13- Para criar um campo de texto com várias linhas usamos a tag <textarea> - Lembre-se de colocar um name e um id com o label referenciando
+14- O atributo name define o nome do dado que será enviado para o back-end
+15- O atributo rows define a quantidade de linhas visíveis do campo e o atributo cols define sua largura em caracteres
+16- O texto colocado entre a abertura e o fechamento da tag <textarea> será exibido como conteúdo inicial do campo
+17- Podemos utilizar o atributo placeholder para exibir uma mensagem de orientação antes do usuário digitar
+18- O atributo required torna o preenchimento obrigatório antes do envio do formulário
