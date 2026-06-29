@@ -162,3 +162,11 @@ acesse o site
 16- O texto colocado entre a abertura e o fechamento da tag <textarea> será exibido como conteúdo inicial do campo
 17- Podemos utilizar o atributo placeholder para exibir uma mensagem de orientação antes do usuário digitar
 18- O atributo required torna o preenchimento obrigatório antes do envio do formulário
+
+<-- Elemento output em formulários HTML -->
+
+1- Para exibir o resultado de um cálculo ou de uma ação dentro de um formulário usamos a tag <output>
+2- A tag <output> apenas exibe informações, não permite que o usuário digite valores
+3- O atributo for pode referenciar os ids dos campos que participaram do cálculo ou da operação
+4- O atributo name identifica o resultado caso ele precise ser acessado ou enviado por scripts
+5- A tag <output> é muito utilizada em conjunto com JavaScript para atualizar valores automaticamente na página
