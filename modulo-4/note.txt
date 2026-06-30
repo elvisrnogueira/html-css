@@ -180,3 +180,12 @@ acesse o site
 1- Usamos o atributo media no link de um CSS para criar arquivos diferentes para meios diferentess (Media Query)
 2- media="screen" - é usado para as telas - Ex: <link rel="stylesheet" href="estilos/tela.css" media="screen"/>
 3- media="print" - é usado para impressoras - Ex: <link rel="stylesheet" href="estilos/impressora.css" media="print"/>
+4- media="all" - é usado para todos os tipos - Ex: <link rel="stylesheet" href="estilos/todas.css" media="all"/>
+5- Tanto "screen" quanto "print" são Media Types
+
+<-- Múltiplas Media Features com CSS -->
+
+1- Media Query é igual a Media Type + Media Features
+2- O Media Feature deve estar entre parênteses
+3- Ex: <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)"/>
+4- Nesse exemplo estamos criando um arquivo CSS para telas com orientação retrato
