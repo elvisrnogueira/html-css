@@ -170,3 +170,7 @@ acesse o site
 3- O atributo for pode referenciar os ids dos campos que participaram do cálculo ou da operação
 4- O atributo name identifica o resultado caso ele precise ser acessado ou enviado por scripts
 5- A tag <output> é muito utilizada em conjunto com JavaScript para atualizar valores automaticamente na página
+
+<-- O que são Media Queries em CSS -->
+
+1- Media Queries são utilizadas para aplicar estilos diferentes dependendo do tamanho da tela ou do dispositivo do usuário
