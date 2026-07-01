@@ -189,3 +189,8 @@ acesse o site
 2- O Media Feature deve estar entre parênteses
 3- Ex: <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)"/>
 4- Nesse exemplo estamos criando um arquivo CSS para telas com orientação retrato
+
+<-- Reunindo tudo em um único CSS -->
+
+1- Podemos criar a regra @media no css para usar uma Media Query
+2- Ex: @media screen and (orientation: portrait) {} - Exemplo mostra uma Media Query para tela com orientação retrato
