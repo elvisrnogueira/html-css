@@ -194,3 +194,8 @@ acesse o site
 
 1- Podemos criar a regra @media no css para usar uma Media Query
 2- Ex: @media screen and (orientation: portrait) {} - Exemplo mostra uma Media Query para tela com orientação retrato
+
+<-- Mobile First -->
+
+1- Mobile First é uma abordagem de desenvolvimento onde criamos primeiro o layout para dispositivos móveis (celulares)
+2- Essa abordagem garante que o site funcione corretamente nas menores telas antes de adicionar estilos para telas maiores
