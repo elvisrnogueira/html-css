@@ -199,3 +199,14 @@ acesse o site
 
 1- Mobile First é uma abordagem de desenvolvimento onde criamos primeiro o layout para dispositivos móveis (celulares)
 2- Essa abordagem garante que o site funcione corretamente nas menores telas antes de adicionar estilos para telas maiores
+
+<-- Device breackpoints -->
+
+1- Typical Device Breakpoints: 
+    1.1- Pequenas telas: até 600px
+    1.2- Celular: 600px até 768px
+    1.3- Tablet: 768px até 992px
+    1.4- Desktop: 992px até 1200px
+    1.5- Grandes telas: acima de 1200px
+2- @media screen and (min-width: 768px) and (max-width: 992px) {} 
+3- Essa regra faz com que as configurações colocadas nela sejam para telas com no minimo 768px de largura e no maximo 992px de largura
