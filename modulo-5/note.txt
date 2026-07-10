@@ -1,0 +1,6 @@
+<-- O que vamos aprender no módulo 5? -->
+
+1- Flexbox = Caixas Flexiveis
+2- O flexbox faz com que os filhos do container se adaptem ao tamanho da tela/ janela
+3- O flexbox trabalha em uma unica dimensão seja ela horizontal ou vertical
+4- Grid Layout diferente do flexbox, ele é multidimensional
