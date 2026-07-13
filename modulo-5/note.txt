@@ -19,4 +19,4 @@
 4- Flexbox foi feito para resolver problemas pontuais (problemas onde as caixas não estão se encaixando)
 5- Flexbox cria um layout flexivel para adaptar o conteudo para você
 6- Quem é o pai? - O pai = flex-container, levará o display: flex;
-7- Os flex-items serão configurados de outras maneiras
+7- Caso você queira que os flex-items se adaptem como a água eles devem estar configurados com flex: auto;
