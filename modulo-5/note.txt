@@ -4,3 +4,19 @@
 2- O flexbox faz com que os filhos do container se adaptem ao tamanho da tela/ janela
 3- O flexbox trabalha em uma unica dimensão seja ela horizontal ou vertical
 4- Grid Layout diferente do flexbox, ele é multidimensional
+
+<-- Primeiros passos com Flexbox CSS -->
+
+1- O que surgiu com o CSS3 (2017):
+    1.1- CSS Flexible Box - Module Level 1
+    1.2- CSS Grid Layout - Module Level 1/2
+2- Maneiras de posicionamento no CSS2.1 (ainda são usados): 
+    2.1- Block Layout
+    2.2- Inline Layout
+    2.3- Table Layout
+    2.4- Positioned Layout
+3- Qual é o formato da água? Vai depender do container - É a mesma coisa com Flexbox
+4- Flexbox foi feito para resolver problemas pontuais (problemas onde as caixas não estão se encaixando)
+5- Flexbox cria um layout flexivel para adaptar o conteudo para você
+6- Quem é o pai? - O pai = flex-container, levará o display: flex;
+7- Os flex-items serão configurados de outras maneiras
