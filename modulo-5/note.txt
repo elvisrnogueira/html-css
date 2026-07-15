@@ -61,3 +61,20 @@
 5- Exemplo de flex-flow:
     5.1- flex-flow: row nowrap; - faz a configuração de flex-direction: row; + flex-wrap: nowrap;
 6- Recomendação da W3C - Utilize flex-flow no lugar de flex-direction e flex-wrap
+
+<-- Alinhamento nos eixos Flexbox -->
+
+1- O justify-content ira apenas fazer o alinhamento referente ao (main-axis)
+2- Configurações de justify-content:
+    2.1- justify-content: flex-start; - O primeiro item irá ficar grudado no main-start
+        2.1.1- O espaço em branco sempre irá ficar grudado no main-end
+    2.2- justify-content: flex-end; - O último item irá ficar grudado no main-end
+        2.2.1- O espaço em branco sempre irá ficar grudado no main-start
+    2.3- justify-content: center; - Todos os itens irão ficar centralizados em relação ao (main-axis)
+        2.3.1- Os espaços em branco são distribuidos igualmente para o main-start e main-end
+    2.4- justify-content: space-between; - Coloca o primeiro item no main-start e o último item no main-end
+        2.4.1- Os espaços em branco são distribuidos igualmente entre os itens
+    2.5- justify-content: space-evenly; - Cria espaçamentos entre todos os itens sendo antes e depois deles
+    2.6- justify-content: space-around; - Pega o container, cria espaços iguais dividos pelo número de itens, e centraliza os itens dentro desse espaço
+        2.6.1- Cria um espaço em branco antes do primeiro e depois do último elemento porém entre os elementos cria dois espaçamentos, um que é o final do anterior e outro o inicio do posterior
+    
