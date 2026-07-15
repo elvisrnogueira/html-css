@@ -48,3 +48,16 @@
     3.6- Quando configurado flex-direction: column-reverse;
         3.3.1- (main-axis) - Lido da baixo para cima - (main-start) baixo / (main-end) cima
         3.3.2- (cross-axis) - Lido de esquerda para direita - (cross-start) esqueda / (cross-end) direita
+
+<-- Empacotamento e fluxo no Flexbox CSS -->
+
+1- Wrap significa empacotamento (encapsulamento)
+2- O encolhimento dos itens vai depender do conteudo em si
+3- Configurações de flex-wrap:
+    3.1- flex-wrap: nowrap; (padrão) - quando diminuir do flex-container o tamanho não ira quebrar os conteudos, eles não iram sair da sequencia
+    3.2- flex-wrap: wrap; -  quando diminuir do flex-container ira quebrar o conteudo no sentido do (cross-axis)
+    3.3- flex-wrap: wrap-reverse; - quando diminuir do flex-container ira quebrar o conteudo no sentido oposto do (cross-axis)
+4- flex-flow é uma junção de flex-direction + flex-wrap - shorthand
+5- Exemplo de flex-flow:
+    5.1- flex-flow: row nowrap; - faz a configuração de flex-direction: row; + flex-wrap: nowrap;
+6- Recomendação da W3C - Utilize flex-flow no lugar de flex-direction e flex-wrap
