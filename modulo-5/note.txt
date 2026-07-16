@@ -86,4 +86,9 @@
         4.3.1-  O espaço em branco sempre irá ficar grudado no cross-start
     4.4- align-items: center; - Todos os elementos irão ficar centralizados em relação ao (cross-axis)
         4.4.1- Os espaços em branco são distribuidos igualmente para o cross-start e cross-end
-    
+
+<-- Centralização absoluta em Flexbox --> 
+
+1- Para centralizar um item de forma absoluta dentro de um container, devemos declarar duas propriedades:
+    1.1- justify-content: center;
+    1.2- align-items: center;
