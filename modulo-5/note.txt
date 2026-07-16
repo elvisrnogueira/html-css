@@ -77,4 +77,13 @@
     2.5- justify-content: space-evenly; - Cria espaçamentos entre todos os itens sendo antes e depois deles
     2.6- justify-content: space-around; - Pega o container, cria espaços iguais dividos pelo número de itens, e centraliza os itens dentro desse espaço
         2.6.1- Cria um espaço em branco antes do primeiro e depois do último elemento porém entre os elementos cria dois espaçamentos, um que é o final do anterior e outro o inicio do posterior
+3- O align-items ira apenas fazer o alinhamento referente ao (cross-axis)
+4- Configurações de align-items:
+    4.1- align-items: stretch; (padrão) - Estica os itens no sentido do (cross-axis)
+    4.2- align-items: flex-start; - Os elementos irão ficar grudado no cross-start
+        4.2.1- O espaço em branco sempre irá ficar grudado no cross-end
+    4.3- align-items: flex-end; - Os elementos irão ficar grudado no cross-end
+        4.3.1-  O espaço em branco sempre irá ficar grudado no cross-start
+    4.4- align-items: center; - Todos os elementos irão ficar centralizados em relação ao (cross-axis)
+        4.4.1- Os espaços em branco são distribuidos igualmente para o cross-start e cross-end
     
