@@ -109,3 +109,15 @@
     4.6- align-content: space-evenly; - Todo o espaço disponível é dividido igualmente
         4.6.1- A distância entre todas as linhas e as bordas do container é exatamente a mesma
     4.7- align-content: space-around; - Pega o container, cria espaços iguais dividos pelo número de linhas, e centraliza os itens dentro desse espaço
+
+<-- Anatomia dos itens Flexbox -->
+
+1- Todo item em flexbox vai ter order: 0; por padrão
+2- A propriedade order faz com que o item flexivel altere sua posição de acordo com a ordem numerica colocada (do menor pro maior)
+3- A propriedade align-self se aplica aos itens e funciona diretamente ao (cross-axis)
+4- Configurações de align-self:
+    4.1- align-self: auto; - Herda a caracteristica de alinhamento vertical do seu pai
+    4.2- align-self: flex-start; - Alinhamento grudado no cross-start
+    4.2- align-self: flex-end; - Alinhamento grudado no cross-end
+    4.2- align-self: center; - Calcula o meio entre o cross-start e o cross-end
+    4.2- align-self: stretch; - Estica o item fazendo com que ele ocupe o cross-axis inteiro
