@@ -121,3 +121,10 @@
     4.2- align-self: flex-end; - Alinhamento grudado no cross-end
     4.2- align-self: center; - Calcula o meio entre o cross-start e o cross-end
     4.2- align-self: stretch; - Estica o item fazendo com que ele ocupe o cross-axis inteiro
+
+<-- Propriedade flex-basis em Flexbox -->
+
+1- Configurações de flex-basis:
+    1.1- flex-basis: auto; (padrão) - O tamanho do elemento dentro do (main-axis) é ditada atraves do tamanho do conteudo
+    1.2- flex-basis: 200px; (tamanho) - Cria os elementos com o tamanho colocado enquanto der
+2- Podemos declarar o flex-basis com diferentes tamanhos entre os elementos
