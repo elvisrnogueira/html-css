@@ -128,3 +128,16 @@
     1.1- flex-basis: auto; (padrão) - O tamanho do elemento dentro do (main-axis) é ditada atraves do tamanho do conteudo
     1.2- flex-basis: 200px; (tamanho) - Cria os elementos com o tamanho colocado enquanto der
 2- Podemos declarar o flex-basis com diferentes tamanhos entre os elementos
+
+<-- Controle do tamanho de itens flexiveis -->
+
+1- flex-grow: crescer - flex-shrink: encolher
+2- Para usar flex-grow ou flex-shrink é importante colocarmos o flex-flow como nowrap pois se os itens quebrarem eles não irão mudar de tamanho
+3- Configurações de flex-shrink:
+    3.1- flex-shrink: 1; (padrão) - Sim, pode encolher
+    3.2- flex-shrink: 0; - Não pode encolher
+    3.3- Quando colocamos valores maiores que 1 temos que calcular a proporção
+4- Configurações de flex-grow:
+    4.1- flex-grow: 0; (padrão) - Não pode crescer
+    4.2- flex-grow: 1; - Sim, pode crescer
+    4.3- Quando colocamos valores maiores que 1 temos que calcular a proporção
