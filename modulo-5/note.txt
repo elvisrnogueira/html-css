@@ -141,3 +141,16 @@
     4.1- flex-grow: 0; (padrão) - Não pode crescer
     4.2- flex-grow: 1; - Sim, pode crescer
     4.3- Quando colocamos valores maiores que 1 temos que calcular a proporção
+
+<-- A propriedade flex -->
+
+1- Podemos usar o shorthand "flex" para declarar os seguintes atributos na ordem: flex-grow, flex-shrink e flex-basis
+2- Ex: flex: 0 1 150px; - Tem o flex-grow: 0;  flex-shrink: 1; flex-basis: 150px;
+3- Configurações de flex:
+    3.1- flex: 0 1 auto; - São os valores padrão de cada atributos
+    3.2- flex: initial; - Mesma coisa que o primeiro exemplo
+    3.4- flex: 0 0 auto; - Deixa os elementos não flexiveis
+    3.5- flex: none; - Mesma coisa que o segundo exemplo
+    3.6- flex: 1 1 auto; - Deoxa ps elementos com o maximo de flexibilidade
+    3.6- flex: auto; - Mesma coisa que o terceiro exemplo
+    3.7- flex: 3; - Só altera o valor do flex-grow
