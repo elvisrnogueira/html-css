@@ -154,3 +154,8 @@
     3.6- flex: 1 1 auto; - Deoxa ps elementos com o maximo de flexibilidade
     3.6- flex: auto; - Mesma coisa que o terceiro exemplo
     3.7- flex: 3; - Só altera o valor do flex-grow
+
+<-- O que é Grid Layout -->
+
+1- "CSS Grid Layout é um sistema para criação de layout baseado em uma grade bidimensional e otimizado para design de interfaces de usuário"
+2- "Nesse modelo de grade, os elementos-filhos do contêiner que defina a grade podem ser posicionados livremente em espaços criados na estrutura, quer ela tenha sido definida com suas dimensões flexíveis ou fixas."
