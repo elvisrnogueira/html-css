@@ -158,4 +158,18 @@
 <-- O que é Grid Layout -->
 
 1- "CSS Grid Layout é um sistema para criação de layout baseado em uma grade bidimensional e otimizado para design de interfaces de usuário"
-2- "Nesse modelo de grade, os elementos-filhos do contêiner que defina a grade podem ser posicionados livremente em espaços criados na estrutura, quer ela tenha sido definida com suas dimensões flexíveis ou fixas."
+2- "Nesse modelo de grade, os elementos-filhos do contêiner que defina a grade podem ser posicionados livremente em espaços criados na estrutura,
+quer ela tenha sido definida com suas dimensões flexíveis ou fixas."
+
+<-- A anatomia de um GRID -->
+
+1- Todo grid tem seu fundamento em um container
+2- Definimos o display: grid; no container
+3- Na junção das tracks existe o (grid item) = item de grade
+4- Quando temos varios items na mesma linha e esses items vão do inicio da grade até o fim da grade tanto (horizontal) quanto (vertical)
+nós chamamos de (grid track)
+5- Quanto temos uma track na horizontal chamamos de (row track)
+6- Quanto temos uma track na vertical chamamos de (column track)
+7- As linhas entre os elementos se chama (grid line)
+8- As verticais e são númeradas sempre da esquerda para direita sendo a primeira da esquerda o número 1
+9- As horizontais e são númeradas sempre de cima para baixo sendo a primeira de cima o número 1
