@@ -173,3 +173,6 @@ nós chamamos de (grid track)
 7- As linhas entre os elementos se chama (grid line)
 8- As verticais e são númeradas sempre da esquerda para direita sendo a primeira da esquerda o número 1
 9- As horizontais e são númeradas sempre de cima para baixo sendo a primeira de cima o número 1
+10- As grid lines podem ter numerações negativas e positivas(-3, -2, -1, 0, 1, 2, 3)
+11- Quando eu tenho um conjunto de items e trato eles como um agrupamento, eu tenho um GRID AREA
+12- Usamoso grid gap para definir um espaço entre os items
