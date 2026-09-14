@@ -176,3 +176,14 @@ nós chamamos de (grid track)
 10- As grid lines podem ter numerações negativas e positivas(-3, -2, -1, 0, 1, 2, 3)
 11- Quando eu tenho um conjunto de items e trato eles como um agrupamento, eu tenho um GRID AREA
 12- Usamoso grid gap para definir um espaço entre os items
+
+<-- Propriedades de container do Grid Layout (parte 1) -->
+
+1- display
+2- grid-template-columns
+3- grid-template-rows
+4- grid-gap
+5- Para criar um grid container iremos declarar display: grid; no elemento desejado
+6- grid-template-columns: auto auto; Faz com que eu tenha a configuração de colunas para 2 colunas, se for com 3 auto será de 3 colunas e todos teram o mesmo tamanho
+7- grid-template-row: 100px 100px 100px; Faz com que cada linha tenha 100px de altura
+8- grid-gap: 20px; Faz com que exista um espaçamento entre os items de 20px
