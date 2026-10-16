@@ -179,14 +179,10 @@ nós chamamos de (grid track)
 
 <-- Propriedades de container do Grid Layout (parte 1) -->
 
-1- display: grid;
-2- grid-template-columns
-3- grid-template-rows
-4- gap
-5- Para criar um grid container iremos declarar display: grid; no elemento desejado
-6- grid-template-columns: auto auto; Faz com que eu tenha a configuração de colunas para 2 colunas, se for com 3 auto será de 3 colunas e todos teram o mesmo tamanho
-7- grid-template-row: 100px 100px 100px; Faz com que cada linha tenha 100px de altura
-8- gap: 20px; Faz com que exista um espaçamento entre os items de 20px
+1- Para criar um grid container iremos declarar display: grid; no elemento desejado
+2- grid-template-columns: auto auto; Faz com que eu tenha a configuração de colunas para 2 colunas, se for com 3 auto será de 3 colunas e todos teram o mesmo tamanho
+3- grid-template-row: 100px 100px 100px; Faz com que cada linha tenha 100px de altura
+4- gap: 20px; Faz com que exista um espaçamento entre os items de 20px
 
 <-- Propriedades de container do Grid Layout (parte 2) -->
 
@@ -214,3 +210,11 @@ nós chamamos de (grid track)
     4.4- space-between: O primeiro item fica colado na borda inicial e o último fica colado na borda final. O espaço restante é dividido igualmente apenas entre os conteudos
     4.5- space-around: O espaço vazio é distribuído ao redor de cada conteudo de forma igual
     4.6- space-evenly: O espaço é rigorosamente igual em todos os lugares: entre os itens e também nas duas extremidades (início e fim)
+
+<-- Propriedades de container do Grid Layout (parte 3) -->
+
+1- grid-auto-row: é usado para caso seja adicionado um novo elemento dentro do grid, esse elemento implicito tenha um tamanho de linha pré-determinado
+2- grid-auto-column: é usado para caso seja adicionado um novo elemento dentro do grid, esse elemento implicito tenha um tamanho de coluna pré-determinado (não podemos usar valor "auto")
+3- place-items:
+4- place-content:
+5- grid-template:
