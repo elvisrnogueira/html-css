@@ -213,8 +213,9 @@ nós chamamos de (grid track)
 
 <-- Propriedades de container do Grid Layout (parte 3) -->
 
-1- grid-auto-row: é usado para caso seja adicionado um novo elemento dentro do grid, esse elemento implicito tenha um tamanho de linha pré-determinado
-2- grid-auto-column: é usado para caso seja adicionado um novo elemento dentro do grid, esse elemento implicito tenha um tamanho de coluna pré-determinado (não podemos usar valor "auto")
-3- place-items:
-4- place-content:
-5- grid-template:
+1- grid-auto-rows: é usado para caso seja adicionado um novo elemento dentro do grid, esse elemento implicito tenha um tamanho de linha pré-determinado
+2- grid-auto-columns: é usado para caso seja adicionado um novo elemento dentro do grid, esse elemento implicito tenha um tamanho de coluna pré-determinado (não podemos usar valor "auto")
+3- place-items: configura de forma simplificada o align-items e o justify-items
+4- place-content: configura de forma simplificada o align-content e o justify-content
+5- grid-template: configura de forma simplificado o grid-template-rows e o grid-template-columns
+    5.1- Ex: grid-template: 100px 100px 100px / auto auto auto;
