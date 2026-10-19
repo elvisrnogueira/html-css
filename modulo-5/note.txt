@@ -203,7 +203,7 @@ nós chamamos de (grid track)
     3.4- space-between: O primeiro item fica colado na borda inicial e o último fica colado na borda final. O espaço restante é dividido igualmente apenas entre os conteudos
     3.5- space-around: O espaço vazio é distribuído ao redor de cada conteudo de forma igual
     3.6- space-evenly: O espaço é rigorosamente igual em todos os lugares: entre os itens e também nas duas extremidades (início e fim)
-4- justify-content: alinhamento horizontal de items
+4- justify-content: alinhamento horizontal de content
     4.1- start: coloca todo o conteudo no inicio do container
     4.2- center: centraliza o conteudo dentro do container
     4.3- end: coloca todo o conteudo no fim do container
