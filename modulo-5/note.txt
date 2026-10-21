@@ -219,3 +219,11 @@ nós chamamos de (grid track)
 4- place-content: configura de forma simplificada o align-content e o justify-content
 5- grid-template: configura de forma simplificado o grid-template-rows e o grid-template-columns
     5.1- Ex: grid-template: 100px 100px 100px / auto auto auto;
+
+<-- Propriedades de container do Grid Layout (parte 4) -->
+
+1- a função repeat(): é usado para economizar código quando você quer criar várias colunas ou linhas que possuem o mesmo tamanho ou o mesmo padrão de tamanho, evitando que você precise digitar o mesmo valor várias vezes manualmente.
+    1.1- Ex: grid-template-columns: repeat(3, auto);
+2- A unidade fr (fraction) é usada para distribuir o espaço livre de um contêiner de forma automática e proporcional, garantindo que o layout seja flexível e responsivo sem que você precise fazer cálculos matemáticos manuais.
+    2.1- Ex: grid-template: repeat  (3, 1fr);
+3- Pode se usar mais de uma unidade de medida no grid-template
