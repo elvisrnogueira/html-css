@@ -233,3 +233,30 @@ nós chamamos de (grid track)
 1- grid-auto-flow: é usado para caso seja adicionado mais um item dentro do container, podemos definir se ele será mais uma linha ou mais uma coluna
     1.1- grid-auto-flow: row; (valor padrão) - faz com que o item adicionado seja mais uma linha
     1.2- grid-auto-flow: column; - faz com que o item adicionado seja mais uma coluna
+
+<-- Propriedades de itens para Grid (parte 1) -->
+
+1- grid-row-start
+2- grid-row-end
+3- grid-column-start
+4- grid-column-end
+5- definimos o grid areas utilizando as númerações dos grid-rows e grid-columns
+    5.1- Ex de como definimos um grid areas:
+    .area1 {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .area2 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .area3 {
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
