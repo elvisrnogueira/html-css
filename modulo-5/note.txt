@@ -227,3 +227,9 @@ nós chamamos de (grid track)
 2- A unidade fr (fraction) é usada para distribuir o espaço livre de um contêiner de forma automática e proporcional, garantindo que o layout seja flexível e responsivo sem que você precise fazer cálculos matemáticos manuais.
     2.1- Ex: grid-template: repeat  (3, 1fr);
 3- Pode se usar mais de uma unidade de medida no grid-template
+
+<-- CSS GRID Layout na prática (parte 3) -->
+
+1- grid-auto-flow: é usado para caso seja adicionado mais um item dentro do container, podemos definir se ele será mais uma linha ou mais uma coluna
+    1.1- grid-auto-flow: row; (valor padrão) - faz com que o item adicionado seja mais uma linha
+    1.2- grid-auto-flow: column; - faz com que o item adicionado seja mais uma coluna
