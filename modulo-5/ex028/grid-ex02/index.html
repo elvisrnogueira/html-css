@@ -8,9 +8,9 @@
       div.container {
         display: grid;
         border: 3px solid black;
-        grid-template: 100px 100px 100px / auto auto auto;
-        place-items: stretch center;
-        place-content: start end;
+        grid-template:  repeat(3, 100px) / repeat(3, 1fr);
+        place-items: center center;
+        place-content: center center;
       }
 
       div.item {
@@ -27,8 +27,6 @@
       <div class="item">E</div>
       <div class="item">F</div>
       <div class="item">G</div>
-      <div class="item">H</div>
-      <div class="item">I</div>
     </div>
   </body>
 </html>

@@ -260,3 +260,16 @@ nós chamamos de (grid track)
         grid-column-start: 3;
         grid-column-end: 5;
     }
+
+<-- CSS Grid: Shorthands para Itens -->
+
+1- grid-row: serve para simplificar o grid-row-start e grid-row-end
+    1.1- Ex: grid-row: 1 / 4;
+2- grid-column: serve para simplificar o grid-column-start e grid-column-end
+    2.1- Ex: grid-column: 1 / 3;
+3- grid-area: serve para simplificar o grid-row e grid-column - sendo os dois primeiros valores o start e os dois ultimos o end
+    3.1- Ex: grid-area: 1 / 1 / 4 / 3;
+4- podemos usar o valor (span) para demonstrar o quanto aquela caixa se expandiu
+    4.1- Ex: A caixa se expandiu da linha 1 até a linha 4 - sendo assim expandindo 3 linhas
+        4.1.1- grid-row-start: 1;
+               grod-row-end: span 3;
